@@ -1,0 +1,36 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #01012a;
+}
+
+/* style="background-color: #05d8e7" */
+
+p,
+h2 {
+  color: #d1f9ff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+:root {
+  --gradient: linear-gradient(90deg, rgba(5, 230, 231, 1) 0%, rgba(0, 86, 120, 1) 52%, rgba(5, 230, 231, 1) 100%);
+}
+
+nav,
+footer {
+  background-image: var(--gradient);
+  background-size: 200%;
+  animation: gradient-animation 20s infinite alternate;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
