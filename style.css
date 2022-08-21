@@ -25,6 +25,14 @@ footer {
   animation: gradient-animation 20s infinite alternate;
 }
 
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: left;
